@@ -41,7 +41,7 @@ const Header = (props) => {
   const [sideBar, setSideBar] = useState(false);
 
   const handleRouteChange = (path) => {
-    if (path === 'https://github.com/kazhala/mealternative') {
+    if (path === 'https://github.com/GaneshDGiri') {
       window.location.replace(path);
     } else {
       history.push(path);
